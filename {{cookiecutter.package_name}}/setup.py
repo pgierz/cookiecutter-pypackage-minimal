@@ -21,7 +21,7 @@ setup(
     author_email="{{ cookiecutter.author_email }}",
     description="{{ cookiecutter.package_description }}",
     long_description=read("README.rst"),
-    packages=find_packages(exclude=("tests",)),
+    packages=find_packages("src", exclude=("tests",)),
     install_requires=[],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
