@@ -1,6 +1,6 @@
 {
     "author_name": "Paul Gierz",
-    "author_email": "pgierz@awi,de",
+    "author_email": "pgierz@awi.de",
 
     "package_name": "cookiecutter_pypackage_minimal",
     "package_version": "0.1.0",
